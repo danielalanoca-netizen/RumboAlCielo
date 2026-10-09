@@ -1,0 +1,24 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Django
+db.sqlite3
+media/
+
+# Variables y secretos
+.env
+
+# Visual Studio Code
+.vscode/
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
