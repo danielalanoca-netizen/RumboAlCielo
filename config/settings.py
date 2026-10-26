@@ -140,3 +140,7 @@ MAILERS = {
 }
 AUTH_USER_MODEL = "usuarios.Usuario"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# Correo para desarrollo local: los mensajes se muestran en la terminal.
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+DEFAULT_FROM_EMAIL = "noreply@rumboalcielo.local"
