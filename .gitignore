@@ -22,3 +22,16 @@ media/
 # Sistema operativo
 Thumbs.db
 .DS_Store
+
+# Archivos de configuración local
+.env.*
+!.env.example
+
+# Archivos de Django y pruebas
+staticfiles/
+.coverage
+htmlcov/
+
+# Entornos y herramientas
+.pytest_cache/
+.mypy_cache/
